@@ -36,11 +36,13 @@ ___OR___
 in your environment variables, add
 
 	C:\Users\somewhere 
-___OR___ in a directory already in your environment variables put the file
+___OR___ 
+in a directory already in your environment variables put the file
 	
 	domo_api.py
 
 To create  a dataset use:
+
 	domo_api.create_datasets(
 	dataset_name = ‘your desired name',
 	description  = ‘your description',
